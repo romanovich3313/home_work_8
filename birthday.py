@@ -26,12 +26,12 @@ def get_birthdays_per_week(users):
 
 
 print(get_birthdays_per_week([
-    {'name': 'Oleg', 'birthday': datetime(year=1900, month=4, day=9)},
-    {'name': 'Slava', 'birthday': datetime(year=1995, month=8, day=11)},
-    {'name': 'Roma', 'birthday': datetime(year=1995, month=8, day=11)},
-    {'name': 'Bob', 'birthday': datetime(year=2000, month=1, day=16)},
-    {'name': 'Nata', 'birthday': datetime(year=2002, month=6, day=20)},
-    {'name': 'Maria', 'birthday': datetime(year=2002, month=6, day=9)},
-    {'name': 'Petro', 'birthday': datetime(year=2000, month=1, day=8)},
-    {'name': 'Nastia', 'birthday': datetime(year=1998, month=4, day=2)}
+    {'name': 'Oleg', 'birthday': datetime(1900, 4, 9)},
+    {'name': 'Slava', 'birthday': datetime(1995, 8, 11)},
+    {'name': 'Roma', 'birthday': datetime(1995, 8, 11)},
+    {'name': 'Bob', 'birthday': datetime(2000, 1, 16)},
+    {'name': 'Nata', 'birthday': datetime(2002, 6, 20)},
+    {'name': 'Maria', 'birthday': datetime(2002, 6, 9)},
+    {'name': 'Petro', 'birthday': datetime(2000, 1, 8)},
+    {'name': 'Nastia', 'birthday': datetime(1998, 4, 2)}
 ]))
